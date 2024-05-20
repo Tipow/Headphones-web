@@ -1,0 +1,56 @@
+body{
+    font-family: "Poppins", sans-serif;
+}
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: ; */
+    /* gap: 30px; */
+}
+.white{
+    background-color: white;
+    height: 710px;
+}
+p{
+    display: block;
+    font-size: 4rem;
+    padding: 50px;
+    padding-bottom: 0px;
+}
+span{
+    color: rgb(248, 127, 147)
+}
+button{
+    background-color: rgb(248, 127, 147);
+    height: 20px;
+    margin-left: 50px;
+    /* border: 2px solid black; */
+    border-radius: 100px;
+    padding: 30px;
+}
+.pink{
+    background-color: rgb(248, 127, 147);
+    height: 710px;
+}
+.pink ul{
+    padding-left: 100px;
+}
+.pink li{
+    display: inline;
+    padding-left: 40px ;
+}
+
+.pink li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+.pink li a:hover{
+    color: white;
+    text-decoration: overline;   
+}
+
+.headphone{
+    display: inline;
+    padding: 50px;
+}
