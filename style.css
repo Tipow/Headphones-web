@@ -116,6 +116,9 @@ header {
         opacity: 0.5;
         font-weight: 500; 
     }
+    .nav-items li {
+        font-size: 20px;
+    }
 
     p {
       font-size: 3.5rem;
